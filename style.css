@@ -1,0 +1,21 @@
+#snap:hover
+{
+background-color: blue;
+
+}
+@keyframes example
+{
+from{box-shadow:1px 1px 30px rgb(255, 0, 0);}
+to{box-shadow:1px 1px 30px rgb(0, 4, 255);}
+}
+
+canvas{
+animation-name:example;
+animation-duration:4s;
+animation-iteration-count: infinite;
+}
+
+canvas:hover{
+border-radius: 100%;
+
+}
